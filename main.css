@@ -1,0 +1,188 @@
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top:65px;
+
+
+}
+header{
+  top:0;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  height: 65px;
+}
+#navbar{
+  max-width:100% ;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 65px;
+  list-style: none;
+ 
+ 
+}
+.addbks{
+  max-width: 650px;
+  background-color: black;
+  color: white;
+}
+.addbook{
+  list-style: none;
+  margin: 5px;
+  
+
+}
+.bookStore{
+  color:yellow;
+  background-color: black;
+  max-width: 650px;
+}
+.saved{
+  list-style: none;
+  font-weight: bold;
+  max-width: 610px;
+  margin: 20px;
+}
+.remove{
+  color:white;
+  background-color: red;
+}
+.avabook{
+  color:white;
+  background-color: black;
+  max-width: 650px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  opacity: 0.8;
+  color: aqua;
+}
+.nav{
+font-size:25px;
+border-left: 1px solid white;
+padding-left: 10px;
+}
+
+.navarea{
+  display: flex;
+}
+.navbar{
+  width: 300px;
+  height: 25px;
+}
+.srcbttn{
+  height: 30px;
+  width: 35px;
+  background-color: rgb(108, 183, 233);
+  border: 1px solid white;
+  
+}
+.btnimg{
+  height: 25px;
+  width: 20px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+.books{
+  width: 100%;
+  height: 30px;
+  padding:20px 20px 20px 0 ;
+  margin: 0;
+  left: 0;
+
+}
+.bookshelfs{
+  list-style: none;
+  /* max-width: 650px; */
+}
+/* .bookshelfs{
+  
+} */
+.more{
+  color:blue;
+  background-color: aliceblue;
+}
+/* .btn{
+  font-weight: bold;
+} */
+.btn:hover{
+  opacity: 0.8;
+  color:blue;
+  font-weight: bold;
+}
+.bookMa:hover{
+  opacity: 0.8;
+  color: White;
+background-color: grey;
+font-weight: bold;
+}
+div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 650px;
+  flex-wrap: wrap;
+}
+.sort{
+ 
+margin: 10px;
+
+}
+ 
+
+/* about us section */
+.AUmission{
+  text-align: center;
+  
+ 
+}
+.AUmissionP{
+  text-align: center;
+  font-size: 25px;
+  max-width: 650px;
+  max-height: 650px;
+  border: 2px solid black;
+  
+}
+.bodyAU{
+  align-items: center;
+  
+}
+/* contact us section */
+.bodyCU{
+  align-items: center;
+}
+/* .h1CU{
+
+} */
+
+.licu{
+  list-style: none;
+  font-size: 30px;
+ text-align: center;
+}.acu{
+  color: black;
+}
+.imgCU{
+  height: 50px;
+}
+.acu:hover{
+  opacity: 0.8;
+  color: blue;
+}

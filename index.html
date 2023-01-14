@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <header>
+
+      <ul id="navbar">
+          <li class="nav" ><a href="index.html">Home</a></li>
+          <li class="navarea"><input  class="navINPUT" type="text" placeholder="search favorite books"> 
+              <button class="searchBtn"><img class="btnimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtUBHvnUvFnfyTo0Ef7EIjQx1oXcO_4asens_gmWJR3uN2GOQYmICpK4iBgxWug5mnSBU&usqp=CAU" alt="search"></button></li>
+          <li class="nav"><a href="aboutus.html">About Us</a></li>
+          <li class="nav"><a href="contactus.html">Contact Us</a></li>
+      </ul>
+  
+  </header>
+  <h1 class="addbks">ADD BOOKS</h1>
+    <p class="Fillall"></p>
+        <ul>
+            <li class="addbook"><input id="addTitle" type="text" placeholder="Title"></li>
+            <li class="addbook"><input id="addauthor" type="text" placeholder="Author"></li>
+            <li class="addbook"><input id="addlenguage" type="text" placeholder="Lenguage"></li>
+            <li class="addbook" ><input id="addsubject" type="text" placeholder="Subject"></li>
+           <button    id="addbookbtn">Submitt Book</button></li>
+            
+        </ul>
+       
+  
+    <nav>
+    
+      <section class="sort">
+        <label>Sort by</label>
+        <select class="sortBy">
+          <option value="titleaz">Title A-Z</option>
+          <option value="titleza">Title Z-A</option>
+        </select>
+      </section>
+      
+    </nav>
+    <main id="app">
+      <ul class="books"></ul>
+     
+    </main>
+
+    <script src="js/book-data.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/bookshelf.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
